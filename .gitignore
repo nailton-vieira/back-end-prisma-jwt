@@ -1,0 +1,11 @@
+
+# Keep environment variables out of version control
+node_modules
+.env
+generated
+
+# Prisma
+prisma/.env
+prisma/migrations/*/dev.db
+prisma/migrations/*/shadow.db
+prisma/client
